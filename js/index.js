@@ -72,12 +72,27 @@ contact.textContent = `${siteContent['nav']['nav-item-6']}`;
 
 
 //change color to green
-let links = document.querySelectorAll('a');
+const links = document.querySelectorAll('a');
 
 //console.log(links);
 links.forEach(element => {
   element.style.color = 'green';
 });
+
+//Utilize .prepend() to add a new item to the navigation system. 
+const team = document.createElement("a");
+team.textContent = "Meet Our Team";
+
+
+
+const navBar = document.querySelector("nav");
+console.log(navBar);
+navBar.prepend(team);
+
+//Utilize .appendChild() to add a new item to the navigation system. 
+const ceo = document.createElement('a');
+ceo.textContent = " Our CEO";
+contact.appendChild(ceo);
 
 //===================
 //Call to action area
