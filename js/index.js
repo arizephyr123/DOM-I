@@ -39,4 +39,53 @@ const siteContent = {
 
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+logo.setAttribute('src', siteContent["nav"]["img-src"]);
+//end example
+
+//for other 2 images
+let round = document.getElementById("cta-img");
+round.setAttribute('src', siteContent["cta"]["img-src"]);
+
+let banner = document.getElementById("middle-img");
+banner.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+//end images
+
+
+//navBarlinks
+const services = document.getElementsByTagName("a")[0];
+services.textContent = `${siteContent['nav']['nav-item-1']}`;
+
+const product = document.getElementsByTagName("a")[1];
+product.textContent = `${siteContent['nav']['nav-item-2']}`;
+
+const vision = document.getElementsByTagName("a")[2];
+vision.textContent = `${siteContent['nav']['nav-item-3']}`;
+
+const features = document.getElementsByTagName("a")[3];
+features.textContent = `${siteContent['nav']['nav-item-4']}`;
+
+const about = document.getElementsByTagName("a")[4];
+about.textContent = `${siteContent['nav']['nav-item-5']}`;
+
+const contact = document.getElementsByTagName("a")[5];
+contact.textContent = `${siteContent['nav']['nav-item-6']}`;
+
+
+//here tried setting text with setAttr first
+//let links = document.getElementsByTagName('a');
+//links[0].setAttribute ('text', siteContent["nav"]["nav-item-1"]);
+// links[0].textContent(siteContent["nav"]["nav-item-1"]);
+
+//===================
+//Call to action area
+//image above
+const awesome = document.querySelector('.cta-text h1');
+console.log(awesome);
+ 
+awesome.textContent = 
+`${siteContent["cta"]["h1"]}`;
+
+ const button = document.querySelector('.cta-text button');
+ //console.log(button);
+
+ button.textContent = `${siteContent["cta"]["button"]}`;

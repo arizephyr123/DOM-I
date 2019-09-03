@@ -11,11 +11,11 @@ You have been provided a [JSON object](js/index.js) with all the necessary data 
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
-* [ ] Add your project manager as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [ x ] Create a forked copy of this project.
+* [ x ] Add your project manager as collaborator on Github.
+* [ x ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [ x ] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [ x ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 * [ ] Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
@@ -31,7 +31,7 @@ You have been provided a [JSON object](js/index.js) with all the necessary data 
 ## Task 2: Update the HTML with the JSON data
 * [ ] Remember, NO direct updating of the HTML source is allowed.
 * [ ] Using your selectors, update the content to match the example file.
-* [ ] Remember to update the src attributes on images
+* [ x ] Remember to update the src attributes on images
 
 ## Task 3: Add new content
 * [ ] Change the color of the navigation text to be green.
